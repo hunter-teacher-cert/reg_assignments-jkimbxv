@@ -5,4 +5,4 @@ Warmup:
 * only 1 kid can step off of the tape at a time
 * Sorting
 * make notes of all the movements we needed
-* distribute coding tasks into groups based on movements needed
+* distributge coding tasks into groups based on movements needed
