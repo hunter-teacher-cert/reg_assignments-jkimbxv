@@ -21,3 +21,8 @@ def swap(arr,a,b):
 dataset = [10, 18, 6, 9, 16, 11, 3, 2, 15, 19, 1, 20, 14, 8, 12, 17, 5, 7, 13, 4];
 
 print(bubblesort(dataset))
+
+#hard assignment:
+#code a bubble sort starting from the end of an array and bubbles down instead
+#how would your indexing change?
+#does your swap algorithm need to change? 
