@@ -2,14 +2,14 @@
 def selectionsort(arr):
     i = 0
     while (i < len(dataset)):
-        currmax = findmin(arr,0,len(dataset)-i)
-        arr.append(arr[currmax])
-        arr.pop(currmax);
+        currmin = findmin(arr,0,len(dataset)-i)
+        arr.append(arr[currmin])
+        arr.pop(currmin);
         print(arr)
         i+=1
     return arr
 
-#findmax finds the first index largest number in the array starting from start
+#findmax finds the first index smallest number in the array starting from start
 def findmin(arr,start,end):
     imax = start;
     i = start+1

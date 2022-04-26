@@ -6,3 +6,17 @@ Warmup:
 * Sorting
 * make notes of all the movements we needed
 * distributge coding tasks into groups based on movements needed
+
+
+Final deliverables:
+
+lesson--add zoom-able click and drag.... peardeck?
+zoom presentation
+written up lesson with focus name
+teacher deliverable content slides
+end result of live code
+homework solutions
+lesson groups--how it was helpful:
+* how to improve code-along
+* prompting questions for predicting what's forward
+* using different coding platforms like coding rooms

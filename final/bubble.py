@@ -1,5 +1,5 @@
 #bubble sort
-
+#code-along portion
 def bubblesort(arr):
     a = 0
     while (a<len(arr)):
@@ -25,4 +25,4 @@ print(bubblesort(dataset))
 #hard assignment:
 #code a bubble sort starting from the end of an array and bubbles down instead
 #how would your indexing change?
-#does your swap algorithm need to change? 
+#does your swap algorithm need to change?
