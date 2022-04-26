@@ -11,10 +11,10 @@ dataset = [10, 18, 6, 9, 16, 11, 3, 2, 15, 19, 1, 20, 14, 8, 12, 17, 5, 7, 13, 4
 
 #easy: looks for a max instead of minimum
 def findmax(arr,start,end):
-    max = arr[start]
+    max = start #max index
     while (start < end):
-        if (arr[start]>max):
-            max = arr[start]
+        if (arr[start]>arr[max]):
+            max = start
         start+=1
     return max
 print(findmax(dataset,0,len(dataset)))
@@ -26,11 +26,9 @@ def selectionsort(arr):
         currmax = findmax(arr,0,len(dataset)-i)
         arr.append(arr[currmax])
         arr.pop(currmax);
-        print(arr)
         i+=1
     return arr
-print(selectionsort(dataset))
-
+print(selectionsort(dataset.copy()))
 
 #spicy: bubble sort: implement a sinking sort instead.
 def swap(arr,a,b):
@@ -39,3 +37,15 @@ def swap(arr,a,b):
     newarr[a] = newarr[b]
     newarr[b] = temp
     return newarr
+
+def sinkingsort(arr):
+    newarr = arr.copy()
+    
+        i = len(newarr)-1
+        while (i>0):
+            if (newarr[i]<newarr[i-1]):
+                swap(newarr,i,i-1)
+                i-=1
+    return newarr
+
+print(sinkingsort(dataset))
