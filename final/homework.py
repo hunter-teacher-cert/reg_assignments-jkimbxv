@@ -40,12 +40,14 @@ def swap(arr,a,b):
 
 def sinkingsort(arr):
     newarr = arr.copy()
-    i = len(newarr)-1
-    lowstop=0
-    while (i>0):
-        if (newarr[i]<newarr[i-1]):
-            swap(newarr,i,i-1)
+    j=0
+    while (j<len(newarr)):
+        i = len(newarr)-1
+        while (i>0):
+            if (newarr[i]<newarr[i-1]):
+                swap(newarr,i,i-1)
             i-=1
+        j+=1
     return newarr
 
 print(sinkingsort(dataset))
