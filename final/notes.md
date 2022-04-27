@@ -2,8 +2,7 @@ Jiyoon: Intro to Sorting Algorithms in Python for AP CSP
 
 
 Final deliverables:
-
-lesson--add zoom-able click and drag.... peardeck?
+lesson
 zoom presentation
 written up lesson with focus name
 teacher deliverable content slides
